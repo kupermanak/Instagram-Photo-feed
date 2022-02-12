@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(199, 195, 195);
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+    margin: none;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: auto;
+    background-color: #ffffff;
+    color: rgb(24, 20, 20);
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    width: 50%;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    padding: 1.5em;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: large
+}
